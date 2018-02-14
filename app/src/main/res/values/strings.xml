@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">1-To-All E-Money</string>
+    <string name="drawer_opened">Drawer Open</string>
+    <string name="drawer_closed">Drawer Close</string>
+    <string name="bottom_nav_home">Drawer Close</string>
+    <string name="bottom_nav_promotion">Drawer Close</string>
+    <string name="bottom_nav_history">Drawer Close</string>
+    <string name="bottom_nav_more">Drawer Close</string>
+    <string-array name="ais_array">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="dtac_array">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+    </string-array>
+    <string-array name="true_array">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+    <!-- TitleNavActivity -->
+    <string name="title_main_activity">Welcome to e-Money by 1-To-All</string>
+    <string name="title_topup"> Top-up</string>
+    <string name="title_topup_ais"> Top-up > AIS</string>
+    <string name="title_topup_dtac"> Top-up > DTAC</string>
+    <string name="title_topup_true"> Top-up > TRUE</string>
+    <string name="title_topup_metfone"> Top-up > Metfone</string>
+    <string name="title_receipt"> Top-up > Receipt Transection</string>
+    <!-- MainMenu -->
+    <string name="main_menu_check_balance">Check Balance</string>
+    <string name="main_menu_topup">Top-up</string>
+    <string name="main_menu_transfer">Transfer</string>
+    <string name="main_menu_refill_card">Refill Card</string>
+    <string name="main_menu_report">Report</string>
+    <string name="main_menu_utility">Utility</string>
+    <!-- NavBar -->
+    <string name="nav_bar_home">Home</string>
+    <string name="nav_bar_login">Log-In</string>
+    <string name="nav_bar_account">Account</string>
+    <string name="nav_bar_abountus">Abount us</string>
+    <string name="nav_bar_contactus">Contact us</string>
+    <string name="nav_bar_logout">Log-Out</string>
+    <!-- Register -->
+    <string name="register_passpost">Passpost ID</string>
+    <string name="register_firstname">First Name</string>
+    <string name="register_lastname">Last Name</string>
+    <string name="register_phonenumber">Phone Number</string>
+    <string name="register_password">Password</string>
+    <string name="register_password_confirm">Password Confirm</string>
+    <string name="register_email">E-mail</string>
+    <string name="btn_register_next">Next</string>
+</resources>

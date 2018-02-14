@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--
+        <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+        </style>
+
+        <style name="MyMaterialTheme.Base" parent="Theme.AppCompat">
+            <item name="windowNoTitle">true</item>
+            <item name="windowActionBar">false</item>
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+     -->
+        <style name="CustomTitleBarThemeWithBackButton" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:windowActionBar">false</item>
+            <item name="android:windowNoTitle">false</item>
+            <item name="android:windowTitleSize">110dp</item>
+            <item name="android:windowTitleBackgroundStyle">@style/titleBarBackgroundStyleWithBackButton</item>
+        </style>
+
+        <style name="titleBarBackgroundStyleWithBackButton">
+            <item name="android:background">@android:color/transparent</item>
+        </style>
+
+
+        <style name="CustomTitleBarThemeWithBackButtonAndMenu" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:windowActionBar">false</item>
+            <item name="android:windowNoTitle">false</item>
+            <item name="android:windowTitleSize">110dp</item>
+            <item name="android:windowTitleBackgroundStyle">@style/titleBarBackgroundStyleWithBackButtonAndMenu</item>
+        </style>
+
+        <style name="titleBarBackgroundStyleWithBackButtonAndMenu">
+            <item name="android:background">@android:color/transparent</item>
+        </style>
+    </resources>

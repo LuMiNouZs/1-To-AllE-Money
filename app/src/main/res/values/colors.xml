@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorBackground">#F4350F</color>
+    <color name="colorButton">#FFFFFF</color>
+    <color name="colorHeadText">#FFFFFF</color>
+    <color name="colorDefaultLoginBunton">#B81C1C</color>
+    <color name="colorPressedLoginBunton">#F44D4D</color>
+    <color name="colorDefaultforgotBunton">#999999</color>
+    <color name="colorPressedforgotBunton">#C0C0C0</color>
+    <color name="colorBackgroundAction">#e5e4e2</color>
+    <color name="colorRightNavAction">#000000</color>
+    <!--Fix Theme color libary design -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="tabBackgroundSelected">#FF0000</color>
+    <color name="tabBackgroundUnselected">#000000</color>
+    <color name="textColorSuccess">#008000</color>
+
+
+</resources>

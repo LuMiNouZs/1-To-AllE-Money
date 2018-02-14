@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpContentNews"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:layout_marginBottom="2dp"
+                android:background="?attr/colorControlHighlight"
+                android:visibility="visible">
+
+
+            </android.support.v4.view.ViewPager>
+
+            <GridView
+                android:id="@+id/gvMainmenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:numColumns="auto_fit"
+                android:stretchMode="columnWidth"
+                android:layout_below="@+id/vpContentNews"
+                android:background="@android:color/transparent"/>
+        </RelativeLayout>
+
+
+</RelativeLayout>

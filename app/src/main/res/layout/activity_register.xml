@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_vector">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/layoutRegister"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtRegisterHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="15dp"
+                    android:text="Register"
+                    android:textColor="@color/colorPressedforgotBunton"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/tbRegisterPasspostId"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/input_box"
+                    android:layout_below="@+id/txtRegisterHeader"
+                    android:ems="10"
+                    android:hint="@string/register_passpost"
+                    android:padding="10dp"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="true"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_below="@+id/tbRegisterPasspostId"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:weightSum="2"
+                    android:layout_marginBottom="15dp">
+
+                    <EditText
+                        android:id="@+id/tbRegisterFirstname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="7.5dp"
+                        android:layout_toEndOf="@+id/tbRegisterLastname"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_box"
+                        android:ems="10"
+                        android:hint="@string/register_firstname"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:selectAllOnFocus="false"
+                        android:textSize="16sp"
+                        android:typeface="sans" />
+
+                    <EditText
+                        android:id="@+id/tbRegisterLastname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="7.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_box"
+                        android:ems="10"
+                        android:hint="@string/register_lastname"
+                        android:inputType="textPersonName"
+                        android:padding="10dp"
+                        android:selectAllOnFocus="false"
+                        android:singleLine="true"
+                        android:textSize="16sp"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/tbRegisterUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/linearLayout2"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/input_box"
+                    android:ems="10"
+                    android:hint="@string/register_phonenumber"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/tbRegisterPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/tbRegisterUsername"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/input_box"
+                    android:ems="10"
+                    android:hint="@string/register_password"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/tbRegisterPasswordConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tbRegisterPassword"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/input_box"
+                    android:ems="10"
+                    android:hint="@string/register_password_confirm"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/tbRegisterEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tbRegisterPasswordConfirm"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/input_box"
+                    android:ems="10"
+                    android:hint="@string/register_email"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/btnRegisterNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tbRegisterEmail"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/btn_login_custom"
+                    android:text="@string/btn_register_next"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButton"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+</RelativeLayout>
