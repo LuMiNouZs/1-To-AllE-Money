@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         btnLogin.setOnClickListener(this);
         btnClose.setOnClickListener(this);
     }
-
+    //Test Comment
     @Override
     public void onClick(View v) {
         switch (v.getId()) {

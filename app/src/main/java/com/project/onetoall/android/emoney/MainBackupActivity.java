@@ -84,6 +84,8 @@ public class MainBackupActivity extends AppCompatActivity implements View.OnClic
 
     }
 
+
+    //Change Anything
     private void initUI() {
         ivBack = (ImageView) findViewById(R.id.ivBackAndMenu);
         ivMenu = (ImageView) findViewById(R.id.ivMenu);
